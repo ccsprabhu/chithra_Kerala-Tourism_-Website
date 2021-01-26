@@ -1,0 +1,123 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+/* body{
+    background: linear-gradient(-100deg,white 50%,deeppink 50%);
+} */
+/* navbar two different colours */
+.menubar{
+    background-image: linear-gradient(to right,#6db9ef,#7ce08a);
+    /* background-image: linear-gradient(to right,green,yellow);
+    background-color:rgb(111, 231, 87); */
+}
+/* links white color */
+.nav-link{
+    font-size: 16px;
+    color:#fff !important;
+    margin:2px;
+}
+/* when responsive the links should be in the right side */
+.navbar-nav{
+    text-align: right;
+
+}
+.menubar .navbar-toggler{
+
+    padding-right:0;
+    outline:none;
+    border:none;
+}
+.carousel-item img{
+    /* position: absolute;
+    width: 50%;
+    height: 50% ;
+    overflow: hidden; */
+    /* height: 450px !important;
+    width: 850px !important;
+ */
+ height: 100%;
+ width: 100%;
+}
+.carousel-caption h1{
+    margin-bottom: 60%;
+    font-size:1050px;
+    margin-top: 50px;
+    
+}
+
+.dist h1{
+
+    background-image: linear-gradient(to right,#17b847,#7ce08a);
+    text-align:center;
+    height:50px;
+    color:#fff;
+    font-style: italic;    
+ }
+.gal{
+    margin-top: 2em;
+    width: 180px;
+
+}
+.gal img{
+height: 10em;
+width: 15em;
+}
+.mymargin  {
+    margin-top: 2em;
+}
+.Myform{
+    margin-top: 10em;
+    
+}
+.Myform1{
+    margin-top: 4em;    
+}
+/* .Myfooter{
+    background-color:rgb(111, 231, 87);
+    text-align:center;
+    height: 4em;
+    padding:18px;
+    margin: 0px;
+    
+} */
+.fig{
+    margin-top: 2em;
+}
+.pic img{
+    width: 25em;
+    height:18em;
+
+}
+.btn{
+    width: 10em;
+    
+}
+.pre a{
+    text-decoration: none;
+    display:inline-block;
+    padding:8px 200px;
+}
+/* ---------------footer --------------------- */
+#footer{
+    background:#f8f9fd;
+    padding:20px 10px 8px;
+    /* height:150px;
+    width:1500px; */
+}
+.footer-image{
+    margin:30px 0;    
+}
+#footer p{
+    color:rgb(194, 10, 10);
+}
+#footer a img {
+    width:50px;
+}
+.fa-heart{
+color:red;
+}
+hr{
+  background-color: #ccc;  
+}
